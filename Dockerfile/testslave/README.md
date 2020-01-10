@@ -13,7 +13,13 @@ This docker includes:
 * 6: vnc-server (default password is welcome),vnc-viewer
 * 7: firefox
 * 8: Selenium, Selenium library for firefox
+* 9: Some RF libraries I created myself.  
+     [CompareLibrary， diff tool support regex](https://github.com/robotslacker/robotframework-comparelibrary)
+
+[Report issues](https://github.com/robotslacker/robotslacker/issues)
 
 [Docker file](https://github.com/robotslacker/robotslacker/blob/master/Dockerfile/testslave/Dockerfile)
 
 ## An example of RobotFramework-Selenium
+
+[Selenium Sample](https://github.com/robotslacker/robotslacker/blob/master/Dockerfile/testslave/Selenium.robot)

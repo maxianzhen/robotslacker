@@ -14,8 +14,8 @@ RUN apt-get install -y openjdk-11-jdk tigervnc-viewer vnc4server
 RUN apt-get install -y libpython2.7 python3.6 python3-pip
 RUN apt-get install -y libopencv3.2-java
 RUN ln -s /usr/lib/jni/libopencv_java320.so /usr/lib/libopencv_java.so
-RUN pip3 install robotframework-difflibrary
-RUN pip3 install robotframework-ftplibrary
+RUN apt-get install -y maven
+RUN pip3 install robotframework-comparelibrary
 RUN pip3 install robotframework-seleniumlibrary
 RUN pip3 install robotframework-sshlibrary
 RUN pip3 install robotframework-Sikulilibrary
